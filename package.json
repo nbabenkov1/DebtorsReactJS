@@ -1,0 +1,19 @@
+{
+  "name": "reacttest",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "core-js": "^2.5.5",
+    "es5-shim": "^4.5.10",
+    "react": "0.14.8",
+    "react-dom": "0.14.8",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

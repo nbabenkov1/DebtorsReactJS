@@ -1,0 +1,92 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+tbody, table {
+  width: 500px;
+  padding: 5px;
+  border: 1px solid #967d50;
+  /*padding-top: 50px;*/
+}
+tr, th {
+  height: 20px;
+  width: 500px;
+}
+td{
+  padding: 5px;
+  text-align-all: left;
+  text-align: left;
+  width: 190px;
+}
+tr{
+  background-color: #CBE1FD;
+}
+/*zebra table*/
+tr:nth-child(2n){
+  background-color: #c8beaa;
+}
+tr:hover{
+  transition: 0.1s;
+  background-color: #006ebe;
+  border-radius: 0.5ex;
+  color: white;
+}
+.header{
+  width: 900px;
+  height: 60px;
+  background-color: #006ebe;
+  color: white;
+  font-size: larger;
+  padding: 5px 15px;
+}
+.header h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mainwrapper{
+  width: 900px;
+  height: 500px;
+}
+
+.leftPanel{
+  float: left;
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: #e9e9e9;
+  height: auto;
+}
+.tableheader{
+  display: inline-block;
+  width: 488px;
+  padding: 5px;
+  border: 1px solid #967d50;
+  background-color: #006ebe;
+}
+.tableheader .tablefilter{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  height: 30px;
+  width: 147px;
+  padding: 5px;
+  line-height: 2em;
+  border: 1px solid white;
+  color: white;
+}
+.sticky{
+  position: -webkit-sticky;
+  top: 93px;
+}
+a {
+  color: inherit;
+  text-decoration:none;
+}
+.headerSpan {
+  color: white;
+}
+.tdDiv {
+  height: 100%;
+  width: 100%;
+}
